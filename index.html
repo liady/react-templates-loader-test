@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        #app div:empty{
+            border:2px solid black;
+            padding:10px 30px;
+            width:140px;
+        }
+        #app div:empty::after {
+            content: "This is an empty div";
+        }
+    </style>
+</head>
+<body>
+<h1>React App</h1>
+<div id="app"></div>
+<script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+</html>
