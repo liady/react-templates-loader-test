@@ -1,7 +1,7 @@
 # React templates loader demo
-Demo repo for react templates loader
+Demo repo for react templates loader.
 
-# Usage
+## Usage
 ```
 npm install
 npm start
