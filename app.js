@@ -1,8 +1,8 @@
 import React from "react/addons";
-import template from "./Item.rt";
+import emptyTemplate from "./Empty.rt";
 
-var Item = React.createClass({
-    render : template
+var Empty = React.createClass({
+    render : emptyTemplate
 });
 
-React.render(<Item/>, document.getElementById('app'));
+React.render(<Empty/>, document.getElementById('app'));
