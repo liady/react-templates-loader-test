@@ -1,5 +1,8 @@
 import React from "react/addons";
-import Item from "./Item";
+import template from "./Item.rt";
 
-var rootElement = document.getElementById('app');
-React.render(<Item/>, rootElement);
+var Item = React.createClass({
+    render : template
+});
+
+React.render(<Item/>, document.getElementById('app'));
